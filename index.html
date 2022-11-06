@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz App</title>
+        <link rel="icon" href="images/favicon_quiz_app.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="questionContainer hide">
+                <div class="question"></div>
+                <div class="answers">
+                    <button class="btn btn1">answer 1</button>
+                    <button class="btn btn2">answer 2</button>
+                    <button class="btn btn3">answer 3</button>
+                    <button class="btn btn4">answer 4</button>
+                </div>
+            </div>
+            <div class="action">
+                <button class="start" onclick="displayQuestions()">Start</button>
+                <button class="next hide" onclick="displayNextQuestion()">Next</button>
+            </div>
+        </div>
+        <script src="jquery.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
